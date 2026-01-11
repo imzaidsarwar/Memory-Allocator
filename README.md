@@ -33,3 +33,9 @@ This project explores low-level memory management concepts such as heap control,
 
 ---
 
+## 🏗️ Project Structure
+
+```text
+
+├── main.c
+└── README.md
