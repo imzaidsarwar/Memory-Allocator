@@ -2,11 +2,12 @@
 #include <string.h>
 #include <pthread.h>
 #include <stdio.h>
+#include "allocator.h"
 
 typedef char ALIGN[16];
 
 // To prevent two or more threads from concurrently accessing memory, we will put a basic locking mechanism in place.
-pthread_mutex_t global_malloc_lock;
+pthread_mutex_t global_malloc_lock = PTHREAD_MUTEX_INITIALIZER;
 
 union header {
 	struct {
