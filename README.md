@@ -35,7 +35,12 @@ This project explores low-level memory management concepts such as heap control,
 
 ## 🏗️ Project Structure
 
-```text
-
-├── main.c
-└── README.md
+Memory-Allocator/
+├── include/
+│   └── allocator.h        # Public API + data structures
+│
+├── src/
+│   ├── allocator.c        # malloc/free/calloc/realloc implementation
+│   └── main.c             # Test / driver program
+│
+├── README.md
