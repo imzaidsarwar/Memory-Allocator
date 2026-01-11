@@ -1,7 +1,7 @@
 # Custom Memory Allocator in C
 
 A from-scratch implementation of a dynamic memory allocator in C that mimics the behavior of `malloc`, `free`, `calloc`, and `realloc`.  
-This project explores low-level memory management concepts such as heap control, fragmentation handling, block splitting/coalescing, and alignment.
+This project explores low-level memory management concepts such as heap control, fragmentation handling, block splitting, and alignment.
 
 ---
 
