@@ -35,6 +35,8 @@ This project explores low-level memory management concepts such as heap control,
 
 ## 🏗️ Project Structure
 
+```text
+
 Memory-Allocator/
 ├── include/
 │   └── allocator.h        # Public API + data structures
